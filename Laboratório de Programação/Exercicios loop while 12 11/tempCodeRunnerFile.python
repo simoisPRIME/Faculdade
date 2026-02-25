@@ -1,0 +1,6 @@
+def dis(price, discount):
+	discount = price * (discount / 100)
+	finalprice = price - discount
+	return finalprice
+
+print(dis(1000, 10))
