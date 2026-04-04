@@ -1,3 +1,10 @@
+"""
+Interface principal em Python para um sistema de catálogo de jogos, 
+gerenciei o fluxo de navegação usando um menu interativo.
+Utilizei a estrutura modular que utiliza funções externas para operações de CRUD, 
+implementando um loop principal com menu interativo.
+"""
+
 from funcoes import cadastrar_jogo, listar_jogos, excluir_jogos
 
 def exibir_menu():

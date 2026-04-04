@@ -1,3 +1,9 @@
+"""
+Arquivo com todas as funções utilizadas no
+menu.py.
+"""
+
+
 def cadastrar_jogo():
     nome = input("Digite o nome do jogo: ")
     empresa = input("Digite a empresa do jogo: ")

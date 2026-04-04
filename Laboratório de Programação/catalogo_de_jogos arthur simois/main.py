@@ -1,3 +1,9 @@
+"""
+Parte da atividade, 3 arquivos diferentes sendo o main.py
+apenas usado para chamar a função de menu.
+"""
+
+
 from menu import exibir_menu
 
 exibir_menu()
