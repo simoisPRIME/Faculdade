@@ -1,7 +1,9 @@
 @echo off
+cls
+echo Sincronizando com GitHub...
 git add .
-set /p msg="Digite a mensagem do commit: "
-git commit -m "%msg%"
+git commit -m "update"
 git push origin main
-echo Atualizacao concluida!
+echo.
+echo ✓ Repositorio atualizado!
 pause
